@@ -27,14 +27,13 @@ return (
       <img src={logo} alt="logo" className="hidden tab:block h-[2rem] " />
 
       {/* Search Bar */}
-      <div className=" mini:flex mob:flex my-0 mx-auto  tab:flex item-center justify-center gap-2 py-[.3rem] px-3 border rounded-[2rem] shadow-1 hover:shadow-2 transition-all ">
+      <div onClick={() => setShowModal(true)} className=" mini:flex mob:flex my-0 mx-auto  tab:flex item-center justify-center gap-2 py-[.3rem] px-3 border rounded-[2rem] shadow-1 hover:shadow-2 transition-all ">
         <p className=" pr-2 pt-[.3rem] font-semibold text-[1rem] item-center border-[grey] border-r-[1.5px] hover:cursor-pointer transition-all">Anywhere</p>
         <p className=" pr-2 pt-[.3rem] font-semibold text-[1rem] border-solid border-[grey] border-r-[1.5px] hover:cursor-pointer transition-all">Any week</p>
         <p className=" text-[1rem] pt-[.3rem] text-font-grey font-semibold justify-self-center hover:cursor-pointer transition-all ">Add guests</p>
 
         <button
           type="button"
-          onClick={() => setShowModal(true)}
           className=" p-[.25rem] flex items-center justify-center bg-theme rounded-[50%] text-white hover:cursor-pointer transition-all" ><SearchIcon className=" text-base" /></button>
 
       </div>
