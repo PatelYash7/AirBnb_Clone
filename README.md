@@ -1,8 +1,20 @@
-# React + Vite
+# AirBnb Clone
+The Airbnb Clone project is a web application designed to replicate the functionality and user experience of Airbnb.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
+ **Client:** React,TailwindCSS,MaterialUI
 
-Currently, two official plugins are available:
+## Reference
+https://airbnb113.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm init
+```
+```bash
+  npm run dev
+```
+
